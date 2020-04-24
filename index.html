@@ -8,14 +8,14 @@
 </head>
 <body>
     <div id="top">
-        <h1><a href="index.html">My First Web Site</a></h1>
+        <h1 id="mainTitle"><a href="index.html">My First Web Site</a></h1>
     </div>
     <div id="container">
         <div class="js-favoriteSite">
             <h3>자주가는 사이트</h3>
             <form class="js-fsForm">
                 <input id="fsName" type="text" placeholder="제목을 입력하세요.">
-                <input id="fsAdd" type="text" placeholder="주소를 입력하세요.">
+                <input id="fsAdd" type="url" placeholder="주소를 입력하세요.">
                 <input id="fsSubmitBtn" type="submit" value="등록">
             </form>
             
@@ -27,6 +27,7 @@
             </ul>
         </div>
         <div class="js-clock">
+            <h2>현재 시간</h2>
             <h1 id="nowTime">00:00</h1>
         </div>
     </div>
@@ -38,5 +39,6 @@
     </div>
     <script src="script.js"></script>
     <script src="clock.js"></script>
+    <script src="bg.js"></script>
 </body>
 </html>
