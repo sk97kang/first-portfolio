@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="top">
+        <h1><a href="index.html">My First Web Site</a></h1>
+    </div>
+    <div id="container">
+        <div class="js-favoriteSite">
+            <h3>자주가는 사이트</h3>
+            <form class="js-fsForm">
+                <input id="fsName" type="text" placeholder="제목을 입력하세요.">
+                <input id="fsAdd" type="text" placeholder="주소를 입력하세요.">
+                <input id="fsSubmitBtn" type="submit" value="등록">
+            </form>
+            
+            <ul class="js-fsList">
+                <li><a href="https://sk97kang.github.io/my-momentum/" target="_blank">My Mometum</a></button></li>
+                <li><a href="https://www.naver.com" target="_blank">네이버</a></button></li>
+                <li><a href="https://www.daum.net" target="_blank">다음</a></li>
+                <li><a href="https://www.google.com" target="_blank">구글</a></li>
+            </ul>
+        </div>
+        <div class="js-clock">
+            <h1 id="nowTime">00:00</h1>
+        </div>
+    </div>
+    <div id="bottom">
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/jSJM9iOiQ1g" frameborder="0" allowfullscreen></iframe>
+        </div>
+        제작자 : Kan | Create Date : 2020-04-24
+    </div>
+    <script src="script.js"></script>
+    <script src="clock.js"></script>
+</body>
+</html>

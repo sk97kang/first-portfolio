@@ -1,0 +1,27 @@
+@font-face{
+    font-family: "Noto_Sans_KR";
+    src: url(./font/Noto_Sans_KR/NotoSansKR-Medium.otf) format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body{
+    background-color: #DAE9E4;
+    color: #3C2E3D;
+    font-family: Noto_Sans_KR;
+}
+
+div {
+    border-bottom: 1px solid #8BCBC8;
+}
+
+button {
+    background-image: url('./images/simple/garbage.svg');
+    background-size: cover;
+    background-color : inherit;
+    border: none;
+    width: 26px;
+    height: 26px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
